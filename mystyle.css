@@ -1,0 +1,366 @@
+/* Game List Styles */
+.game-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.game {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.game img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.game p {
+  margin-top: 10px;
+}
+/* Top Bar Styles */
+.top-bar {
+  background-color: #F47920;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h1 {
+  margin: 0;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.submit-button {
+  background-color: white;
+  color: #F47920;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #F47920;
+  text-align: center;
+}
+
+.game-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.game {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.game img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.game p {
+  margin-top: 10px;
+}
+/* Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #F47920;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-gap: 2px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #F47920;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #E35D00;
+}
+/* Additional Styles for welcome.php */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #F47920;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.approve-button {
+  background-color: #F47920;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.approve-button:hover {
+  background-color: #E35D00;
+}
+
+/* Top Bar Styles */
+.top-bar {
+  background-color: #F47920;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h1 {
+  margin: 0;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.submit-button {
+  background-color: white;
+  color: #F47920;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* Additional Styles for welcome.php */
+
+/* Top Bar Styles */
+.top-bar {
+  background-color: #F47920;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar h1 {
+  margin: 0;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.submit-button {
+  background-color: white;
+  color: #F47920;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* Additional Styles for welcome.php */
+
+/* Nav Bar Styles */
+.nav-bar {
+  background-color: #F47920;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar h1 {
+  margin: 0;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.submit-button {
+  background-color: white;
+  color: #F47920;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Additional Styles for welcome.php */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #F47920;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.approve-button {
+  background-color: #F47920;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.approve-button:hover {
+  background-color: #E35D00;
+}
+/* Additional Styles for welcome.php */
+.navbar {
+  background-color: #F47920;
+  color: white;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar ul li a {
+  color: #F47920; /* Replace with your desired color value */
+  text-decoration: none;
+  padding: 10px;
+}
+
+

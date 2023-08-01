@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Game</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <style>
+    /* Additional styles for submission form */
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #FFF;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .form-container input[type="text"],
+    .form-container textarea,
+    .form-container select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #CCC;
+      border-radius: 4px;
+    }
+
+    .form-container input[type="submit"] {
+      background-color: #F48024;
+      color: #FFF;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: #E56B0A;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Submit Game</h1>
+
+    <form action="submit_game.php" method="post">
+      <label for="title">Title:</label>
+      <input type="text" name="title" id="title" required>
+
+      <label for="description">Description:</label>
+      <textarea name="description" id="description" rows="4" required></textarea>
+
+      <label for="tags">Tags:</label>
+      <select name="tags" id="tags" required>
+        <option value="">Select Tag</option>
+        <option value="unity">Unity</option>
+        <option value="gdp">GDP</option>
+        <option value="makecode">Makecode</option>
+        <option value="roblox">Roblox</option>
+        <option value="scratch">Scratch</option>
+        <option value="web">Web</option>
+      </select>
+
+      <label for="thumbnail">Thumbnail URL:</label>
+      <input type="text" name="thumbnail" id="thumbnail">
+
+      <label for="game_url">Game URL:</label>
+      <input type="text" name="game_url" id="game_url" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>

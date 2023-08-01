@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Game Submission Form</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+  <h1>Game Submission Form</h1>
+  <form action="submit_game1.php" method="post">
+    <label for="submitter">Submitter:</label>
+    <input type="text" id="submitter" name="submitter" required><br><br>
+
+    <label for="link_to_game">Link to Game:</label>
+    <input type="text" id="link_to_game" name="link_to_game" required><br><br>
+
+    <label for="name_of_game">Name of Game:</label>
+    <input type="text" id="name_of_game" name="name_of_game" required><br><br>
+
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" required></textarea><br><br>
+
+    <label for="tags">Tags:</label>
+    <input type="text" id="tags" name="tags"><br><br>
+
+    <label for="game_icon_url">Game Icon URL:</label>
+    <input type="text" id="game_icon_url" name="game_icon_url"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
